@@ -27,6 +27,7 @@ const navLinks:Link[] = [
   },
 ]
 function State () {
+    
     const [text,setText] = useState('shakeAndBake');
     const [number,setNumber] = useState(1)
     // empty array needs type
