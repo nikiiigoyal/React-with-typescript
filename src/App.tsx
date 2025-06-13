@@ -5,6 +5,7 @@ import State from "./components/03-state";
 import Events from "./components/04-events";
 import Profile from "./components/05-advancedprops";
 import ParentComponent from "./components/06-context";
+import Reducers from "./components/07-reducers";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
      <Events />
      <Profile type="advanced"  name='niki' email="nidnn@gmail.com"/>
      <ParentComponent />
+     <Reducers />
     </main>
   );
 }
