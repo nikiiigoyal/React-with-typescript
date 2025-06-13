@@ -6,6 +6,7 @@ import Events from "./components/04-events";
 import Profile from "./components/05-advancedprops";
 import ParentComponent from "./components/06-context";
 import Reducers from "./components/07-reducers";
+import FetchingData from "./components/08-datafetch";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
      <Profile type="advanced"  name='niki' email="nidnn@gmail.com"/>
      <ParentComponent />
      <Reducers />
+     <FetchingData />
     </main>
   );
 }
