@@ -36,10 +36,10 @@ export const counterReducer = (
     case 'setStatus':
       return { ...state, status: action.payload };
     default:
-      const unhandledActionType: never = action;
+      { const unhandledActionType: never = action;
       throw new Error(
         `Unexpected action type: ${unhandledActionType}. Please double check the counter reducer.`
-      );
+      ); }
   }
 };
 
