@@ -7,7 +7,9 @@
 // import ParentComponent from "./components/06-context";
 // import Reducers from "./components/07-reducers";
 // import FetchingData from "./components/08-datafetch";
-import MainTasks from "./components/09- tasks";
+
+import MainTasks from "./components/09-tasks";
+
 
 function App() {
   return (

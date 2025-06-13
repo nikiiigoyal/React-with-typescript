@@ -67,7 +67,7 @@ html {
 }
 
 body {
-  background: var(--background-color);
+  background: var(--black);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 400;
